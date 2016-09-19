@@ -5,9 +5,9 @@ import "fmt"
 func TestPublic() {
 	fmt.Println("公用方法测试");
 	fmt.Println("私有方法调用");
-	TestPrivate();
+	testPrivate();
 }
 
-func TestPrivate() {
+func testPrivate() {
 	fmt.Println("私有方法测试");
 }
